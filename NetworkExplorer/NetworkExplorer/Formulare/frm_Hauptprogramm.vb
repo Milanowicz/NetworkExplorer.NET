@@ -6,8 +6,9 @@
 
 
     Private Sub frm_Hauptprogramm_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
         Dim IPs As String() = Host.GetLocalIPs()
-        'MsgBox(Now())
+
 
         Me.list_Host.Items.Add("")
         Me.list_Host.Items.Add("PC Internet Adressen")
@@ -100,6 +101,5 @@
 #End Region
 
 #End Region
-    
-    
+
 End Class
